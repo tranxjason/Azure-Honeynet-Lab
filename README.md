@@ -78,7 +78,9 @@ These improvements included:
 <h2>Metrics Before Hardening/Security Controls</h2>
 
 The following table shows the metrics we measured in our insecure environment for 24 hours:
+
 Start Time 2023-05-03 09:15 AM
+
 Stop Time 2023-05-04 09:15 AM
 
 | Metric                                 | Count |
@@ -92,7 +94,9 @@ Stop Time 2023-05-04 09:15 AM
 <h2>Metrics After Hardening/Security Controls</h2>
 
 The following table shows the metrics we measured in our secure environment for 24 hours:
+
 Start Time 2023-05-04 4:25 PM
+
 Stop Time 2023-05-05 4:25 PM
 
 | Metric                                 | Count |
@@ -140,7 +144,7 @@ Post-Incident Activity
 
 <h2>Conclusion</h2>
 
-A small honeynet was deployed in Microsoft Azure, with log sources integrated into a Log Analytics workspace. Microsoft Sentinel was utilized to monitor the environment by generating alerts and incidents based on ingested log data. Metrics were collected in the unsecured environment, and again after applying security controls. The noticeable decrease in security events and incidents following the implementation of these controls demonstrates their effectiveness in protecting the environment.
+A honeynet was deployed in Microsoft Azure, with log sources integrated into a Log Analytics workspace. Microsoft Sentinel was utilized to monitor the environment by generating alerts and incidents based on ingested log data. Metrics were collected in the unsecured environment, and again after applying security controls. The noticeable decrease in security events and incidents following the implementation of these controls demonstrates their effectiveness in protecting the environment.
 
 It's important to note that if the network resources had been actively used by regular users, the number of security events and alerts observed during the 24-hour post-hardening period could have been higher.
 
